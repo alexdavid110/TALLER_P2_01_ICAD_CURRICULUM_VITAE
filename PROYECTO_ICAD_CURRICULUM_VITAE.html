@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Mi Pagina Web</title>
+    <link rel="shortcut icon" href="img/alex.TeC2.png" type="image/x-icon">
+    
+</head>
+
+<body>
+    <!-- SECCION INICIO -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>[ICAD]</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">Inicio</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">Datos personales</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">Cursos</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">Certificados</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">Contacto</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="redes">
+                        <a href="https://www.facebook.com/profile.php?id=100004643621234" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://studio.youtube.com/channel/UCSegeyPJokYQCWIKtHMAreg/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/alexiniga/" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <h2>Hola Bienvenidos <span></span>,A mi pagina Web</h2>
+                <p class="descripcion">A continuacion detallare mi información personal,educativa y profesional </p>
+                <a href="#portfolio">Ir a certificados </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="Sobremi">
+        <div class="contenedor-foto">
+
+            <img src="img/foto.perfil.jpeg" alt="">
+        </div>
+        <div class="Sobremi">
+            <p class="titulo-seccion">Sobre mi</p>
+            <h2>Hola, Soy <span>Alex David Iñiga Calderón </span> </h2>
+            <p>Soy una persona alegre, sonriente, optimista y un poco alocado.Doy todo de mi cuando se trata de hacer un importante trabajo como el reflexionar y la concentración, Me gusta trabajar en equipo, tengo habitos proactivos, no me gusta dejar las cosas a medias.</p>
+            <p>Tambien me gusta resolver problemas de manera tranquila y con mucha comunicación</p>
+            <a href="Doc/Curriculum.pdf" target="_blank">Descargar CV</a>
+        </div>
+    </section>
+<!-- Datos -->
+<section id="Datos">
+    <div class="contenedor-foto2">
+        <img src="" alt="">
+    </div>
+    <div class="Datos">
+        <div class="columna-izquierda">
+            <h3 class="titulo-seccion"><span>Datos personales</span></h3>
+            <p><span class="texto-negrita">Cedula:</span> 0952547081.</p>
+            <p><span class="texto-negrita">Celular:</span> 0984821535.</p>
+            <p><span class="texto-negrita">Fecha de nacimiento:</span> 30/01/2000.</p>
+            <p><span class="texto-negrita">Correo Institucional:</span> alex.inigac@ug.edu.ec.</p>
+            <p><span class="texto-negrita">Dirección:</span> Guasmo Norte Mz 93 Solar 4.</p>
+            <p><span class="texto-negrita">Estado civil:</span> Soltero.</p>
+        </div>
+        <div class="columna-derecha">
+            <h4 class="titulo-seccion"><span>Formación Académica y Estudios </span></h4>
+            <p><span class="texto-negrita">Primario :</span> Escuela de educación básica Santo Tomas de Aquino</p>
+            <p><span class="texto-negrita">Secundario :</span> Unidad educativa Carlos Estarellas Avilés: Bachillerato Técnico en Aplicaciones
+                Informáticas</p>
+            <p><span class="texto-negrita">Superior:</span> Estudiantes de la Universidad de Guayaquil carrera Ingeniería en telemática</p>
+        </div>
+    </div>
+</section>
+    <!-- Servicios-->
+<section id="servicios">
+    <h3 class="titulo-seccion">Cursos realizados</h3>
+    <div class="fila">
+        <div class="servicio">
+            <span class="icono"> <i class="fa-solid fa-computer"></i></span>
+            <h4>Manejo de herramientas de office</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Word</li>
+                <li>Excel</li>
+                <li>Power point</li>
+            </ul>
+            <p>Habilidades avanzadas en paquete Office (Word, Excel, PowerPoint) con experiencia demostrada en la creación de documentos, hojas de cálculo y presentaciones efectivas.</p>
+        </div>
+        <div class="servicio">
+            <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+            <h4>Ensamblaje y reparación de computadora</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Laptop</li>
+                <li>Dipositivos moviles</li>
+                <li>Tablet</li>
+            </ul>
+            <p>Amplia experiencia en el ensamblaje y reparación de computadoras, incluyendo el diagnóstico y solución de problemas de hardware y software</p>
+        </div>
+        <div class="servicio">
+            <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+            <h4>Taller Electricidad </h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Instalación</li>
+                <li>- Manejo de herramientas</li>
+            </ul>
+            <p>Participación en taller de electricidad adquiriendo conocimientos en instalaciones eléctricas residenciales y comerciales. 
+                Experiencia en el manejo seguro de herramientas y la resolución de problemas eléctricos.</p>
+        </div>
+    </div>
+    <div class="fila">
+        <div class="servicio">
+            <span class="icono"><i class="fa-solid fa-database"></i></span>
+            <h4>Cisco Networking Academy/Cybersecurity Essentials</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Habilidades empresariales</li>
+                <li>Emprendimiento</li>
+            </ul>
+            <p>Conocimientos en redes y configuración de dispositivos. 
+                Experiencia en emprendimiento y desarrollo de habilidades empresariales a través del programa.</p>
+        </div>
+        <div class="servicio">
+            <span class="icono"><i class="fa-solid fa-palette"></i></span>
+            <h4>Diseñador Gráfico</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Instalación y uso de herramientas</li>
+                <li>Graphic</li>
+                
+            </ul>
+            <p>Amplia experiencia en diseño gráfico utilizando Photoshop, dominando las herramientas y técnicas para la creación y edición de imágenes. 
+                Capacidad para desarrollar diseños visuales impactantes y profesionales.</p>
+        </div>
+        <div class="servicio">
+            <span class="icono"><i class="fa-solid fa-person-circle-question"></i></span>
+            <h4>Introducción a Internet de todo</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Beneficios de Internet de todo</li>
+                <li>Creación de modelos en IdT</li>
+            </ul>
+            <p>Explicar la interacción entre las personas, los procesos, los datos y las
+                cosas que conforman Internet de todo</p>
+        </div>
+    </div>
+</section>
+
+    <!-- Habilidades-->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Photoshop</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Pyton</p>
+                <span class="porcentaje">80%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Bases de Datos</p>
+                <span class="porcentaje">80%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html & Css & Javascript</p>
+                <span class="porcentaje">70%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mi Certificados </h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto1.jpg" alt="">
+                <div class="info">
+                    <h4>Certificado</h4>
+                    <p>Cisco Networking Academy® Cybersecurity Essentials</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto3.jpg" alt="">
+                <div class="info">
+                    <h4>Certificado</h4>
+                    <p>Introducción a Internet de todo</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto4.jpeg" alt="">
+                <div class="info">
+                    <h4>Certificado</h4>
+                    <p>Arrreglo de telefono en hardware y software</p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto6.jpeg" alt="">
+                <div class="info">
+                    <h4>Certificado</h4>
+                    <p>Ensamblaje y reparación de computadora</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto7.jpeg" alt="">
+                <div class="info">
+                    <h4>Certificado</h4>
+                    <p>Mantenimiento de computadora</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto9.jpeg" alt="">
+                <div class="info">
+                    <h4>Certificado</h4>
+                    <p>Taller Electricidad</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Si necesita ayuda enviame un correo </h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- Rede sociales-->
+    <footer>
+        <p>Todos los derechos Reservador-2023-ICAD</p>
+        <div class="redes">
+            <a href="https://www.facebook.com/profile.php?id=100004643621234" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://studio.youtube.com/channel/UCSegeyPJokYQCWIKtHMAreg/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.instagram.com/alexiniga/" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
